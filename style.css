@@ -1,0 +1,125 @@
+ body{
+            
+            
+            text-align:  center;
+            }
+                                   /*---- Index ----*/
+#index .main-menu ul{
+            margin: 0;
+            padding: 0;
+            }
+
+#index .main-menu li a{
+            text-decoration: none;
+            display: block;
+            padding: 10px 25px;
+            background: #be8cd8;
+            border: 1px solid brown;
+            width: 70px;
+            }
+
+#index .main-menu ul li{
+            display: inline-block;
+            }
+        
+#index nav a:hover{
+            color: #000;
+            background: #fff;
+            }
+#about{
+	background-color: #c0c0c0;
+	
+}			
+			                       /* ----Skills---- */			
+#skills div{
+           display: inline-block;
+           margin-right: 5px;
+                }
+#skills #square0 {
+           width: 160px;
+           height: 160px;
+           background: #c10b0b;
+                }          
+#skills #square1 {
+           width: 120px;
+           height: 120px;
+           background: #107214;
+                }
+#skills #square2 {
+           width: 80px;
+           height: 80px;
+           background: #0b26c1;
+                }
+#skills #square3 {
+           width: 40px;
+           height: 40px;
+           background: #514904;
+                }
+				                   /*---- Portfolio --*/         
+#portfolio div{
+           margin-bottom: 15px;
+           margin-left: auto;
+           margin-right: auto;
+           }
+          
+#portfolio #square4 {
+           border: 4px solid #0b26c1;
+           width: 160px;
+           height: 160px;
+           background: #c10b0b;
+           }
+          
+#portfolio #square5 {
+           border: 4px solid #c10b0b;
+           width: 160px;
+           height: 160px;
+           background: #107214;
+           }
+          
+#portfolio #square6 {
+           border: 4px solid #107214;
+           width: 160px;
+           height: 160px;
+           background: #0b26c1;
+           }
+		                           /*---- Contact ----*/
+#contact #imię{
+            border: 2px solid #bca07c;
+            font-size: 12px;
+            border-radius: 4px;
+            box-shadow: 2px 2px 2px #107214;
+            }
+          
+#contact #temat{
+            border: 2px solid #bca07c;
+            font-size: 12px;
+            border-radius: 4px;
+            box-shadow: 2px 2px 2px #107214;
+            }
+          
+#contact #comment{
+            border: 2px solid #bca07c;
+            font-size: 12px;
+            border-radius: 4px;
+            box-shadow: 2px 2px 2px #107214;
+            }
+#contact #submit{
+            border: 2px solid #666;
+            color: coral;
+            background-color: chartreuse;
+            width: 60px;
+            height: 20px;
+            font-size: 12px;
+            border-radius: 4px;
+            box-shadow: 2px 2px 2px #107214;
+            }
+#contact address span{
+            display: block;
+            }
+			                /*------------------------*/
+.tab       {
+            display: none; 
+	        } 
+.tab:target{
+            display: block;
+            }

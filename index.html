@@ -2,47 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <style type="text/css">
-        body{
-            background: url(img/papel.jpg);
-            background-size: 100%;
-            text-align:  center;
-            }
-        
-        .main-menu ul{
-            margin: 0;
-            padding: 0;
-            }
-
-        .main-menu li a{
-            text-decoration: none;
-            display: block;
-            padding: 10px 25px;
-            background: #be8cd8;
-            border: 1px solid brown;
-            width: 70px;
-            }
-
-        .main-menu ul li{
-            display: inline-block;
-            }
-        
-        nav a:hover{
-            color: #000;
-            background: #fff;
-            }
-        
-  </style>
+    <title>Kwadraty</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <nav class = "main-menu">
+    <menu id="index">
+      <nav class = "main-menu">
         <ul>
-          <li><a href="about.html" style="color: #c10b0b">About us</a></li>
-          <li><a href="skills.html" style="color: #107214">Skills</a></li>
-          <li><a href="portfolio.html" style="color: #0b26c1">Portfolio</a></li>
-          <li><a href="contact.html" style="color: #514904">Contact</a></li>
+          <li><a href="#about" style="color: #c10b0b">About us</a></li>
+          <li><a href="#skills" style="color: #107214">Skills</a></li>
+          <li><a href="#portfolio" style="color: #0b26c1">Portfolio</a></li>
+          <li><a href="#contact" style="color: #514904">Contact</a></li>
         </ul>
-    </nav>
+     </nav>
+    </menu>
+	   <menu id="about" class="tab">
+	     <div class="text">
+         <h1>Nagłówek H1</h1>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam cumque neque deserunt, maxime accusamus dolor. Dolores, necessitatibus mollitia fuga fugiat? Autem, libero, earum. Maiores sint exercitationem consectetur dicta doloremque debitis. </p>
+         </div>
+	   </menu>
+	     <menu id="skills" class="tab">
+		   <h1 style="color: aquamarine">Nagłówek H1</h1>
+           <div id="square0"></div>
+           <div id="square1"></div>
+           <div id="square2"></div>
+           <div id="square3"></div>
+		 </menu>
+		   <menu id="portfolio" class="tab">
+		     <h1 style="color: aquamarine">Nagłówek H1</h1>
+             <div id="square4"></div>
+             <div id="square5"></div>
+             <div id="square6"></div>
+		   </menu>
+		     <menu id="contact" class="tab">
+			   <h1>Aleksandr Kostiuk</h1>
+                <form>
+                  <p><b>Imię :</b></p>
+                    <input id="imię" required placeholder="......"/>
+                  <p><b>Temat :</b></p>
+                    <input id="temat" required placeholder="......" />
+                  <p><b>Wiadomość:</b></p>
+                   <textarea id="comment"required placeholder="Napisz wiadomość.." rows="10" cols="45" ></textarea>
+                    <!--    -----    -->
+                  <p><input type="Submit" id="submit" value="Wyślij" /></p>
+                </form>
+          <address>
+	          <span class="phone">
+		        +48-730-352-644
+	          </span>
+	          <span class="addres">
+		        02-758 Warszawa, ul. Sozopolska 1
+	          </span>
+	          <span class="gmail">
+		        <a href="https://www.google.com/intl/pl/gmail/about/">kosskill2011@gmail.com</a>
+	          </span>
+          </address>
+		    </menu>
 </body>
 </html>
