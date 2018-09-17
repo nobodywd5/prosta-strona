@@ -1,8 +1,7 @@
- body{
-            
-            
+ body{    
             text-align:  center;
             }
+
                                    /*---- Index ----*/
 #index .main-menu ul{
             margin: 0;
@@ -12,6 +11,7 @@
 #index .main-menu li a{
             text-decoration: none;
             display: block;
+            margin-bottom: 15px;
             padding: 10px 25px;
             background: #be8cd8;
             border: 1px solid brown;
@@ -83,7 +83,7 @@
            background: #0b26c1;
            }
 		                           /*---- Contact ----*/
-#contact #imię{
+#contact #name{
             border: 2px solid #bca07c;
             font-size: 12px;
             border-radius: 4px;
