@@ -3,12 +3,12 @@
             }
 
                                    /*---- Index ----*/
-#index .main-menu ul{
+#index ul{
             margin: 0;
             padding: 0;
             }
 
-#index .main-menu li a{
+#index li a{
             text-decoration: none;
             display: block;
             margin-bottom: 15px;
@@ -18,11 +18,11 @@
             width: 70px;
             }
 
-#index .main-menu ul li{
+#index  ul li{
             display: inline-block;
             }
         
-#index nav a:hover{
+#index a:hover{
             color: #000;
             background: #fff;
             }
